@@ -1,4 +1,5 @@
 //complete this code
+
 class Person {
 	 constructor(name, age) {
         this._name = name;
@@ -20,6 +21,7 @@ class Student extends Person {
         this._studentId = studentId;
     }
 	study() {
+		debugger;
         console.log(`${this._name} is studying.`);
     }
 }
