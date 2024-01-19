@@ -16,21 +16,21 @@ class Person {
 }
 
 class Student extends Person {
-	constructor(name, age, studentId) {
-        super(name, age);
-        this._studentId = studentId;
-    }
+	// constructor(name, age, studentId) {
+ //        super(name, age);
+ //        this._studentId = studentId;
+ //    }
 	study() {
-		debugger;
+		// debugger;
         console.log(`${this._name} is studying.`);
     }
 }
 
 class Teacher extends Person {
-	constructor(name, age, subject) {
-        super(name, age);
-        this._subject = subject;
-    }
+	// constructor(name, age, subject) {
+ //        super(name, age);
+ //        this._subject = subject;
+ //    }
 	    teach() {
         console.log(`${this._name} is teaching.`);
     }
